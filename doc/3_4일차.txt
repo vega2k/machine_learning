@@ -1,0 +1,28 @@
+1. 의사결정트리 알고리즘
+: 과대적합 되기 쉬움
+: 하이퍼 파라미터 튜닝이 필요
+
+2. 사이킷런에서 제공하는 utils
+: 교차검증, 그리드서치, 랜덤서치
+
+3. Kaggle에 제출
+Titanic data를 활용 (분류)
+: log(), GridSearchCV 사용
+
+4. 앙상블 학습
+ : 여러개의 모델을 사용하는 학습방법
+ 3.1 랜덤포레스트 알고리즘
+ - 결정트리 알고리즘을 여러개 사용하는 모델
+ - 랜덤포레스트는 기본적으로 100개의 의사결정트리를 사용
+ 3.2 GBM, XGBoost, LightGBM
+  Gradient Boosting Model - 속도면에서 불리함
+  경사하강법
+  XGBoost, LightGBM 사이킷런에 포함되지 모델
+  : Colab 사용 - GPU / TPU
+  MSE(Mean Squarred Error) 손실함수, 
+  RMSE(Root Mean Squarred Error)
+
+5.Kaggle에 제출
+Bike Sharing on Demand(회귀) 
+
+하이퍼 파라미터 vs 모델파라미터 

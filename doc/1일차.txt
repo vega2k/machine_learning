@@ -1,0 +1,89 @@
+https://drive.google.com/drive/folders/1vWIAIU9-lwTwTcJkeMLbAQHe2XqYmOJz
+
+anaconda.exe 다운로드 받아서 설치
+설치시 유의사항
+: Add to PATH 추가 선택
+
+c:\machine_learning 폴더 생성
+
+cmd 창을 띄워서 해당 폴더로 이동
+cd  c:\machine_learning
+
+> jupyter notebook
+
+> jupyter notebook --generate-config
+  y로 답하면 됩니다.
+
+
+크롬이 기본 브라우저로 설정되어 있어야 합니다.
+
+구글 드라이브에 있는 ipynb 파일을 machine_learning 폴더에 저장
+machine_learning 폴더에 data.zip 파일 압축을 풀어준다
+--------------------------------------------------------------------
+
+python.org
+: Python Toolkit은 파이썬의 Core 라이브러리가 포함된 버전
+> pip install tensorflow
+
+Anaconda 
+- windows path 체크 
+- 데이터분석, 머신러닝, 웹스크래핑
+
+Anaconda Prompt 창에서 
+> jupyter notebook
+
+윈도우즈 계정명이 반드시 영문이어야 합니다. 
+
+설치된 라이브러리 확인 및 라이브러리의 역할
+1. Pandas
+: pip show pandas
+R언어의 data.frame를 모방
+역할 - 데이터 분석 
+
+2. Numpy (numerical python)
+: pip show numpy
+: 수학함수들, Array Handling
+
+python array와 numpy array 의 차이점
+[100, 'aa', True]
+[100, 200, 300]
+
+3. Matplotlib, Seaborn
+: pip show matplotlib
+: pip show seaborn
+역할 - Visualization 시각화
+plot (그래프)
+
+4. Scikit Learn
+: pip show scikit-learn
+역할: 머신러닝 (학습, 예측, 하이퍼파라미터 튜닝)
+ 
+python interpreter
+python
+ipython
+jupyter notebook
+코드 확장자 : code.ipynb
+
+python 다른 editor 
+: Visual Studio Code (ms)
+: PyCharm (jetbrains)
+확장자 : code.py,  code.ipynb
+
+Source code를 작성하실 폴더를 생성
+
+
+해당 cell 실행하는 단축키
+ctrl + enter : 해당 셀만 실행
+alt + enter : 해당 셀을 실행하고, 새로운 셀을 추가
+shift + enter : 해당 셀을 실행하고, 커서를 아래 셀에 
+
+셀의 유형이 code와 markdown
+esc + m : markdown
+esc + y : code
+
+code 주석  : ctrl + / 
+
+code 자동완성 : tab (잘 않되면 tab 두번)
+api 문서보기 : shift + tab 
+
+
