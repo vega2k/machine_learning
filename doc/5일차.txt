@@ -1,0 +1,24 @@
+지도학습
+1. 앙상블 학습
+ : 여러개의 모델을 사용하는 학습방법
+ 1.1 랜덤포레스트 알고리즘
+ kaggle Bike Sharing on Demand 
+ 자전거 대여수 예측
+ - 결정트리 알고리즘을 여러개 사용하는 모델
+ - 랜덤포레스트는 기본적으로 100개의 의사결정트리를 사용
+
+ 2.2 GBM, XGBoost, LightGBM
+  Gradient Boosting Model - 속도면에서 불리함
+  경사하강법
+  XGBoost, LightGBM 사이킷런에 포함되지 모델
+  : Colab 사용 - GPU / TPU
+ 
+ Kaggle House Price 
+ 집값을 예측
+ 컬럼  갯수가 많은 dataset 
+
+2. 비지도 학습
+ : 레이블이 없는 학습방법
+ : 분류(클러스터링) - 그룹핑
+ : 차원축소 - 시각화 
+  

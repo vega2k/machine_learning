@@ -25,4 +25,12 @@ Titanic data를 활용 (분류)
 5.Kaggle에 제출
 Bike Sharing on Demand(회귀) 
 
+6. 비지도학습 (unsupervised learning)
+
+
 하이퍼 파라미터 vs 모델파라미터 
+
+
+git 계정 필요
+git client 프로그램
+
